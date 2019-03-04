@@ -53,7 +53,7 @@ print(s13.upper())
 
 #s14  TOBEDISCUSSED
 s14= "abraham lincoln"
-print(s14.capitalize())
+print(s14.title())
 
 
 #S15
@@ -78,4 +78,9 @@ s19 = "Something out of nothing? I really doubt we can do it anytime soon.."
 print(s19[:len(s19)//2].count('n'))
 
 #s20
-print(s18[2:].replace('0', '9'))
+print(s18.replace('0', '9').replace('9', '0', 1))
+
+#21
+s21 = "what,if,we,have,no,choice?...."
+print(s21.capitalize().replace(',', ' ').rstrip('....'))
+

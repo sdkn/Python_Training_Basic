@@ -74,5 +74,5 @@ print("'%s'" % num1)
 
 #18
 str18 = "Another bad example, what a good day"
-print(str18.replace('good', 'bad').replace('bad','good',1))
+print(str18.replace('good', 'bad').replace('bad', 'good', 1))
 
